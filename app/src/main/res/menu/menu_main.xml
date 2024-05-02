@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/add_a_post"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_friend_requests"
+        android:icon="@drawable/ic_friend_requests"
+        android:title="@string/friend_requests"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_dark_mode"
+        android:icon="@drawable/ic_dark_mode"
+        android:title="@string/toggle_dark_mode"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_update_info"
+        android:title="@string/update_info"
+        android:icon="@drawable/ic_logout"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_logout"
+        android:title="@string/logout2"
+        android:icon="@drawable/ic_logout"
+        app:showAsAction="never"/>
+
+</menu>
